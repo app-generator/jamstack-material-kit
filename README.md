@@ -1,4 +1,4 @@
-# [JAMstack Material Kit](https://jamstack-material-kit.appseed.us)
+# [JAMstack Material Kit](https://appseed.us/apps/jamstack/jamstack-material-kit)
 
 Blazing fast application coded in [JAMstack](https://jamstack.org/) pattern on top of [Material Kit](https://demos.creative-tim.com/material-kit/) design.
 
@@ -8,20 +8,32 @@ Blazing fast application coded in [JAMstack](https://jamstack.org/) pattern on t
 
 <br />
 
-## App Links
+## Build from sources
+---
 
-- [JAMstack Material Kit demo](https://jamstack-material-kit.appseed.us/)
+```bash
+$ # clone the sources
+$ git clone https://github.com/app-generator/jamstack-material-kit.git
+$ cd jamstack-material-kit
+$
+$ # install modules
+$ yarn
+$
+$ # start the app in development mode
+$ yarn start
+$
+$ # build the app for production
+$ yarn build
+$ # app is runing on http://localhost:8080/ 
+```
 
 <br />
 
-## How to use it
+## App Links
+---
 
-- Clone this repo `git clone https://github.com/app-generator/jamstack-material-kit.git`
-- change directory to `jamstack-material-kit`
-- `yarn` - install deps
-- `yarn start` - live edit
-- `yarn build` - build for production in directory `_site`
-- `yarn deploy` - build & LIVE deploy `Info: edit FTP credentials in deploy.js `
+- [JAMstack Material Kit](https://appseed.us/apps/jamstack/jamstack-material-kit) - product page
+- [JAMstack Material Kit](https://jamstack-material-kit.appseed.us/) - live demo
 
 <br />
 
@@ -35,4 +47,4 @@ Blazing fast application coded in [JAMstack](https://jamstack.org/) pattern on t
 <br />
 
 ---
-[JAMstack Material Kit](https://jamstack-material-kit.appseed.us) - provided by **AppSeed**
+[JAMstack Material Kit](https://appseed.us/apps/jamstack/jamstack-material-kit) - provided by **AppSeed**
